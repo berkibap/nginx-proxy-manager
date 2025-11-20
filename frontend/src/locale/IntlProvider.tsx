@@ -11,7 +11,6 @@ import langRu from "./lang/ru.json";
 import langSk from "./lang/sk.json";
 import langVi from "./lang/vi.json";
 import langZh from "./lang/zh.json";
-import langTr from "./lang/tr.json";
 
 // first item of each array should be the language code,
 // not the country code
@@ -28,7 +27,6 @@ const localeOptions = [
 	["sk", "sk-SK", langSk],
 	["vi", "vi-VN", langVi],
 	["zh", "zh-CN", langZh],
-	["tr", "tr-TR", langTr],
 ];
 
 const loadMessages = (locale?: string): typeof langList & typeof langEn => {
